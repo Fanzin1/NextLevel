@@ -1,0 +1,89 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+body{
+    background: url('/Imagens/SVG/background.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 500px;
+}
+
+
+nav{
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a{
+    padding: 0 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+ul li a:hover{
+    color: #E94119;
+}
+
+#logo{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    width: 60%;
+    text-align: center;
+    margin: 195px auto;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+#professores{
+    margin-top: 450px;
+    color: black;
+}
+
+#contato{
+    background-color: #E94119;
+    padding: 100px;
+}
+
+.form-control{
+    margin-bottom: 25px!important;
+}
+
+#login{
+    background-color: #E94119;
+    height: 100vh;
+    padding-top: 250px;
+}
+
+.login-box{
+    width: 30%;
+    padding: 25px;
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+    height: 450px;
+    box-shadow: 2px 5px 15px rgb(63, 63, 63);
+}
